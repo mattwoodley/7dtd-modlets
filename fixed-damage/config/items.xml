@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+    <!-- Select all random entity damage modifiers and set them to 0 -->
+    <set xpath="/items
+                /item[not (starts-with(@name,'thrown')) and not
+                                      (@name='meleeToolHammerOfGodAdmin')]
+                /effect_group
+                /passive_effect[(@name='EntityDamage') and 
+                                (@operation='perc_add') and not 
+                                (@tier) and not 
+                                (@tags='wood') and not 
+                                (@tags='secondary') and not 
+                                (@tags='perkArchery') and not 
+                                (@tags='perkDeepCuts')]
+                /@value">0</set>
+
+</configs>
