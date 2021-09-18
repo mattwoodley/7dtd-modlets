@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+modGunBarrelExtenderDesc,item_modifiers,mod,,,"Increases damage over range but makes the weapon more unwieldy when fired from the hip.\n\n-Range increased by 50%.\n-Hip-fire spread increased by 100%."
+modGunBipodDesc,item_modifiers,mod,,,"Lowers spread at the hip and significantly lowers recoil when not moving.\n\n-Hip-fire spread decreased by 30%.\n-Additional 30% spread reduction when walking or crouching.\n-Not moving decreases vertical recoil by 80%.\n-Not moving decreases horizontal recoil by 99%."
+modGunLaserSightDesc,item_modifiers,mod,,,Increases accuracy when firing from the hip.\n\n-Hip-fire spread decreased by 60%.
+modGunMuzzleBrakeDesc,item_modifiers,mod,,,Diverts the propellant gases to reduce recoil.\n\n-Vertical recoil decreased by 40%.\n-Horizontal recoil decreased by 40%.
+modGunForegripDesc,item_modifiers,mod,,,Significantly improves recoil control from the hip or while moving.\n\n-Vertical recoil decreased by 30%.\n-Horizontal recoil decreased by 60%.
+modGunRetractingStockDesc,item_modifiers,mod,,,Lowers spread while firing from the hip because the weapon becomes more manageable in close quarters.\n\n-Hip-fire spread decreased by 30%.

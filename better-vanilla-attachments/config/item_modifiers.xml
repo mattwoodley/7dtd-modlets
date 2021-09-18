@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+	<!-- Barrel Extended -->
+
+		<!-- Increases range by 50% -->
+		<set xpath="/item_modifiers/item_modifier[@name='modGunBarrelExtender']/effect_group/passive_effect[@name='DamageFalloffRange']/@value">.5</set>
+		<!-- Bullets travel farther by 50% -->
+		<set xpath="/item_modifiers/item_modifier[@name='modGunBarrelExtender']/effect_group/passive_effect[@name='MaxRange']/@value">.5</set>
+		<!-- Hip-fire spread is doubled -->
+		<set xpath="/item_modifiers/item_modifier[@name='modGunBarrelExtender']/effect_group/passive_effect[@name='SpreadMultiplierHip']/@value">2</set>
+
+
+	<!-- Bipod -->
+
+		<!-- Reduce spread by 30% at the hip. Additional reduction of 30% when walking or crouching -->
+		<set xpath="/item_modifiers/item_modifier[@name='modGunBipod']/effect_group/passive_effect[@name='SpreadMultiplierWalking']/@value">-.3</set>
+		<set xpath="/item_modifiers/item_modifier[@name='modGunBipod']/effect_group/passive_effect[@name='SpreadMultiplierHip']/@value">-.3</set>
+		<append xpath="/item_modifiers/item_modifier[@name='modGunBipod']/effect_group">
+			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.3"/>
+		</append>
+
+		<!-- Whilst idle, (not moving) vertical recoil is reduced to 20% and horizontal recoil to 0 (still wavers a little) -->
+		<append xpath="/item_modifiers/item_modifier[@name='modGunBipod']">
+			<effect_group>
+				<requirement name="EntityHasMovementTag" tags="idle"/>
+				<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0.2"/>
+				<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0.2"/>
+				<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0"/>
+				<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
+			</effect_group>
+		</append>
+
+
+	<!-- Laser Sight -->
+
+		<!-- Reduce spread by 60% at the hip -->
+		<set xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']/effect_group/passive_effect[@name='SpreadMultiplierHip']/@value">-.6</set>
+
+
+	<!-- Muzzle Brake -->
+
+		<!-- Reduce vertical recoil by 40% and horizontal recoil by 40% -->
+		<set xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']/effect_group/passive_effect[@name='KickDegreesVerticalMin']/@value">-.4</set>
+		<set xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']/effect_group/passive_effect[@name='KickDegreesVerticalMax']/@value">-.4</set>
+		<set xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']/effect_group/passive_effect[@name='KickDegreesHorizontalMin']/@value">-.4</set>
+		<set xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']/effect_group/passive_effect[@name='KickDegreesHorizontalMax']/@value">-.4</set>
+
+
+	<!-- Foregrip -->
+
+		<!-- Reduce vertical recoil by 30% and horizontal recoil by 60% -->
+		<set xpath="/item_modifiers/item_modifier[@name='modGunForegrip']/effect_group/passive_effect[@name='KickDegreesVerticalMin']/@value">-.3</set>
+		<set xpath="/item_modifiers/item_modifier[@name='modGunForegrip']/effect_group/passive_effect[@name='KickDegreesVerticalMax']/@value">-.3</set>
+		<set xpath="/item_modifiers/item_modifier[@name='modGunForegrip']/effect_group/passive_effect[@name='KickDegreesHorizontalMin']/@value">-.6</set>
+		<set xpath="/item_modifiers/item_modifier[@name='modGunForegrip']/effect_group/passive_effect[@name='KickDegreesHorizontalMax']/@value">-.6</set>
+
+	<!-- Retracting Stock -->
+
+		<!-- Reduce spread by 30% at the hip -->
+		<set xpath="/item_modifiers/item_modifier[@name='modGunRetractingStock']/effect_group/passive_effect[@name='SpreadMultiplierHip']/@value">-.3</set>
+
+	
+</configs>
