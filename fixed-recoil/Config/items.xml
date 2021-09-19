@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+	<!-- Machine Guns -->
+	
+		<!-- AK47 -->
+		<set xpath="/items/item[@name='gunMGT1AK47']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">2.5</set>
+		<set xpath="/items/item[@name='gunMGT1AK47']//passive_effect[@name='KickDegreesHorizontalMin']/@value">-.6</set>
+		<set xpath="/items/item[@name='gunMGT1AK47']//passive_effect[@name='KickDegreesHorizontalMax']/@value">.6</set>
+
+		<!-- Tactical Assault Rifle -->
+		<set xpath="/items/item[@name='gunMGT2TacticalAR']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">1.5</set>
+		<set xpath="/items/item[@name='gunMGT2TacticalAR']//passive_effect[(starts-with(@name,'KickDegreesHorizontal'))]/@value">.5</set>
+
+		<!-- M60 -->
+	
+		<set xpath="/items/item[@name='gunMGT3M60']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">3</set>
+		<set xpath="/items/item[@name='gunMGT3M60']//passive_effect[@name='KickDegreesHorizontalMin']/@value">-.8</set>
+		<set xpath="/items/item[@name='gunMGT3M60']//passive_effect[@name='KickDegreesHorizontalMax']/@value">.8</set>
+
+	<!-- Rifles -->
+
+		<!-- Hunting Rifle -->
+		<set xpath="/items/item[@name='gunRifleT1HuntingRifle']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">4</set>
+		<set xpath="/items/item[@name='gunRifleT1HuntingRifle']//passive_effect[@name='KickDegreesHorizontalMin']/@value">-1</set>
+		<set xpath="/items/item[@name='gunRifleT1HuntingRifle']//passive_effect[@name='KickDegreesHorizontalMax']/@value">-1</set>
+
+		<!-- Marksman Rifle -->
+		<set xpath="/items/item[@name='gunRifleT2MarksmanRifle']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">2.5</set>
+		<set xpath="/items/item[@name='gunRifleT2MarksmanRifle']//passive_effect[@name='KickDegreesHorizontalMin']/@value">.9</set>
+		<set xpath="/items/item[@name='gunRifleT2MarksmanRifle']//passive_effect[@name='KickDegreesHorizontalMax']/@value">.9</set>
+
+		<!-- Sniper Rifle -->
+		<set xpath="/items/item[@name='gunRifleT3SniperRifle']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">1.8</set>
+		<set xpath="/items/item[@name='gunRifleT3SniperRifle']//passive_effect[@name='KickDegreesHorizontalMin']/@value">-2</set>
+		<set xpath="/items/item[@name='gunRifleT3SniperRifle']//passive_effect[@name='KickDegreesHorizontalMax']/@value">-2</set>
+
+	<!-- Handguns -->
+
+		<!-- Pistol -->
+		<set xpath="/items/item[@name='gunHandgunT1Pistol']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">1</set>
+		<set xpath="/items/item[@name='gunHandgunT1Pistol']//passive_effect[@name='KickDegreesHorizontalMin']/@value">.1</set>
+		<set xpath="/items/item[@name='gunHandgunT1Pistol']//passive_effect[@name='KickDegreesHorizontalMax']/@value">-.1</set>
+
+		<!-- Magnum -->
+		<set xpath="/items/item[@name='gunHandgunT2Magnum44']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">5</set>
+		<set xpath="/items/item[@name='gunHandgunT2Magnum44']//passive_effect[@name='KickDegreesHorizontalMin']/@value">.2</set>
+		<set xpath="/items/item[@name='gunHandgunT2Magnum44']//passive_effect[@name='KickDegreesHorizontalMax']/@value">-.2</set>
+		
+		<!-- SMG -->
+		<set xpath="/items/item[@name='gunHandgunT3SMG5']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">1.5</set>
+		<set xpath="/items/item[@name='gunHandgunT3SMG5']//passive_effect[@name='KickDegreesHorizontalMin']/@value">.3</set>
+		<set xpath="/items/item[@name='gunHandgunT3SMG5']//passive_effect[@name='KickDegreesHorizontalMax']/@value">-.3</set>
+
+		<!-- Desert Vulture -->
+		<set xpath="/items/item[@name='gunHandgunT3DesertVulture']//passive_effect[(starts-with(@name,'KickDegreesVertical'))]/@value">5</set>
+		<set xpath="/items/item[@name='gunHandgunT3DesertVulture']//passive_effect[@name='KickDegreesHorizontalMin']/@value">.3</set>
+		<set xpath="/items/item[@name='gunHandgunT3DesertVulture']//passive_effect[@name='KickDegreesHorizontalMax']/@value">-.3</set>
+
+	<!-- Bows -->
+
+		<!-- Primitive Bow -->
+
+		<!-- Wooden Bow -->
+
+		<!-- Compound Bow -->
+
+	<!-- Crossbows -->
+
+		<!-- Iron Crossbow -->
+
+		<!-- Compound Crossbow -->
+
+</configs>
