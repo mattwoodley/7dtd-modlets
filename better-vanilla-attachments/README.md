@@ -11,7 +11,7 @@ Barrel Extended
 Bipod
 
 - Reduce spread by 30% at the hip. Additional reduction of 30% when walking or crouching
-- Whilst idle, (not moving) vertical recoil is reduced to 20% and horizontal recoil to 0 (still wavers a little)
+- Whilst idle (not moving), vertical recoil is reduced to 20% and horizontal recoil to 0
 
 Laser Sight
 
