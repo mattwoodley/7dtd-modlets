@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lower Chainsaw and Auger Sound Effects" />
+		<Description value="This lowers the overall volume of chainsaw and auger sounds as it's deafening." />
+		<Author value="M17Woodley" />
+		<Version value="1.0.1" />
+		<Website value="https://github.com/mattwoodley/7dtd-modlets/tree/main/lower-chainsaw-auger-sfx" />		
+	</ModInfo>
+</xml>

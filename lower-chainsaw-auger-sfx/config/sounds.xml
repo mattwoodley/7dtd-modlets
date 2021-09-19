@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+    <!-- Auger -->
+        <!-- Auger mining noise lowered from 60 to 40 -->
+        <set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']/Noise/@noise">40</set>
+
+    <!-- Chainsaw -->
+        <!-- Chainsaw start noise lowered from 60 to 40 -->
+        <set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_start']/Noise/@noise">40</set>
+        <!-- Chainsaw chopping noise lowered from 60 to 40 -->
+        <set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_rev']/Noise/@noise">40</set>
+</configs>
