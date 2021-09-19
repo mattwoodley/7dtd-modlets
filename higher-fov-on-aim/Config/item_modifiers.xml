@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configs>
+
+    <!-- Reflex Sight -->
+    <set xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']//property[@name='Zoom_max_out']/@value">70</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']//property[@name='Zoom_max_in']/@value">50</set>
+
+    <!-- Small Scope -->
+    <set xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']//property[@name='Zoom_max_in']/@value">30</set>
+    
+    <!-- Large Scope -->
+    <set xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']//property[@name='Zoom_max_in']/@value">5</set>
+    
+</configs>

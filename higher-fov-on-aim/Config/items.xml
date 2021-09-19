@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configs>
+
+    <!-- Handguns -->
+        
+        <!-- Pistol -->
+        <set xpath="/items/item[@name='gunHandgunT1Pistol']//property[@name='Zoom_max_out']/@value">70</set>
+        <set xpath="/items/item[@name='gunHandgunT1Pistol']//property[@name='Zoom_max_in']/@value">50</set>
+                
+        <!-- Magnum -->
+        <set xpath="/items/item[@name='gunHandgunT2Magnum44']//property[@name='Zoom_max_out']/@value">70</set>
+        <set xpath="/items/item[@name='gunHandgunT2Magnum44']//property[@name='Zoom_max_in']/@value">50</set>
+        
+        <!-- Desert Vulture -->
+        <set xpath="/items/item[@name='gunHandgunT3DesertVulture']//property[@name='Zoom_max_out']/@value">70</set>
+        <set xpath="/items/item[@name='gunHandgunT3DesertVulture']//property[@name='Zoom_max_in']/@value">50</set>
+
+        <!-- SMG -->
+        <set xpath="/items/item[@name='gunHandgunT3SMG5']//property[@name='Zoom_max_out']/@value">70</set>
+        <set xpath="/items/item[@name='gunHandgunT3SMG5']//property[@name='Zoom_max_in']/@value">50</set>
+
+    <!-- Shotguns -->
+
+        <!-- Blunderbuss -->
+        <set xpath="/items/item[@name='gunShotgunT0Blunderbuss']//property[@name='Zoom_max_out']/@value">70</set>
+        <set xpath="/items/item[@name='gunShotgunT0Blunderbuss']//property[@name='Zoom_max_in']/@value">50</set>
+        
+        <!-- Double Barrel -->
+        <set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']//property[@name='Zoom_max_out']/@value">70</set>
+        <set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']//property[@name='Zoom_max_in']/@value">50</set>
+        
+        <!-- Pump Shotgun -->
+        <set xpath="/items/item[@name='gunShotgunT2PumpShotgun']//property[@name='Zoom_max_out']/@value">70</set>
+        <set xpath="/items/item[@name='gunShotgunT2PumpShotgun']//property[@name='Zoom_max_in']/@value">50</set>
+        
+        <!-- Auto Shotgun -->
+        <set xpath="/items/item[@name='gunShotgunT3AutoShotgun']//property[@name='Zoom_max_out']/@value">70</set>
+        <set xpath="/items/item[@name='gunShotgunT3AutoShotgun']//property[@name='Zoom_max_in']/@value">50</set>
+
+    <!-- Rifles -->
+
+        <!-- Hunting Rifle -->
+        <set xpath="/items/item[@name='gunRifleT1HuntingRifle']//property[(starts-with(@name,'Zoom'))]/@value">50</set>
+        
+        <!-- Marksman Rifle -->
+        <set xpath="/items/item[@name='gunRifleT2MarksmanRifle']//property[(starts-with(@name,'Zoom'))]/@value">50</set>
+        
+        <!-- Sniper Rifle -->
+        <set xpath="/items/item[@name='gunRifleT3SniperRifle']//property[(starts-with(@name,'Zoom'))]/@value">50</set>
+
+    <!-- Machine Guns -->
+
+        <!-- AK47 -->
+        <set xpath="/items/item[@name='gunMGT1AK47']//property[@name='Zoom_max_out']/@value">60</set>
+        <set xpath="/items/item[@name='gunMGT1AK47']//property[@name='Zoom_max_in']/@value">50</set>
+        
+        <!-- Tactical Assault Rifle -->
+        <set xpath="/items/item[@name='gunMGT2TacticalAR']//property[@name='Zoom_max_out']/@value">60</set>
+        <set xpath="/items/item[@name='gunMGT2TacticalAR']//property[@name='Zoom_max_in']/@value">50</set>
+        
+        <!-- M60 -->
+        <set xpath="/items/item[@name='gunMGT3M60']//property[@name='Zoom_max_out']/@value">60</set>
+        <set xpath="/items/item[@name='gunMGT3M60']//property[@name='Zoom_max_in']/@value">50</set>
+    
+    <!-- Bows -->
+        
+        <!-- Primitive Bow -->
+        <set xpath="/items/item[@name='gunBowT0PrimitiveBow']//property[(starts-with(@name,'Zoom'))]/@value">50</set>
+        
+        <!-- Wooden Bow -->
+        <set xpath="/items/item[@name='gunBowT1WoodenBow']//property[(starts-with(@name,'Zoom'))]/@value">50</set>
+        
+        <!-- Compound Bow -->
+        <set xpath="/items/item[@name='gunBowT3CompoundBow']//property[(starts-with(@name,'Zoom'))]/@value">50</set>
+        
+    <!-- Crossbows -->
+        
+        <!-- Iron Crossbow -->
+        <set xpath="/items/item[@name='gunBowT1IronCrossbow']//property[(starts-with(@name,'Zoom'))]/@value">50</set>
+        
+        <!-- Compound Crossbow -->
+        <set xpath="/items/item[@name='gunBowT3CompoundCrossbow']//property[(starts-with(@name,'Zoom'))]/@value">50</set>
+
+    <!-- Rocket Launcher -->
+    <set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']//property[@name='Zoom_max_out']/@value">60</set>
+    <set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']//property[@name='Zoom_max_in']/@value">50</set>
+
+</configs>
