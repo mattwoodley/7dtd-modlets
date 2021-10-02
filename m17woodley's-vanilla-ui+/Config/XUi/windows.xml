@@ -44,7 +44,6 @@
 		</append>
 
 		<!-- Water -->
-		
 		<remove xpath="/windows/window[@name='windowToolbelt']/rect/rect[@stat_type='Water']"/>
 		<append xpath="/windows/window[@name='windowToolbelt']/rect">
 			<rect pos="376,-77" width="377" height="19" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
@@ -82,10 +81,10 @@
 		</rect>
 
 		<!-- Kills -->
-		<rect name="hud" pos="-268,1025" rows="1" cols="1" width="60" controller="PlayerStatsWindow" visible="{statvisible}">
-			<sprite depth="1" pos="0,0" height="30" width="73" color="0,0,0,80" type="sliced" foregroundlayer="true"/>
+		<rect name="hud" pos="-278,1025" rows="1" cols="1" width="60" controller="PlayerStatsWindow" visible="{statvisible}">
+			<sprite depth="1" pos="0,0" height="30" width="83" color="0,0,0,80" type="sliced" foregroundlayer="true"/>
 			<sprite depth="2" name="windowIcon" width="26" height="26" pos="4,-3" sprite="ui_game_symbol_marksmanship" color="[iconColor]" foregroundlayer="true"/>
-			<label depth="2" name="TextContent" pos="30,-5" width="40" height="24" text="[DECEA3]{playerzombiekills}" font_size="19" justify="center"/>
+			<label depth="2" name="TextContent" pos="30,-5" width="50" height="24" text="[DECEA3]{playerzombiekills}" font_size="19" justify="center"/>
 		</rect>
 		
 		<!-- Deaths -->
@@ -100,9 +99,9 @@
 	<!-- Add Distance Travelled to Vehicle UI -->
 	<append xpath="/windows/window[@name='HUDRightStatBars']/rect[2]">
 		<rect controller="HUDStatBar" stat_type="VehicleFuel" visible="{statvisible}">
-			<sprite depth="1" pos="-182,919" height="30" width="91" color="0,0,0,80" type="sliced" foregroundlayer="true"/>
-			<sprite depth="2" name="windowIcon" width="23" height="23" pos="-180,915" sprite="ui_game_symbol_run" color="[iconColor]" foregroundlayer="true"/>
-			<label depth="6" controller="PlayerStatsWindow" width="58" height="23" name="TextContent" pos="-155,914" font_size="19" text="[DECEA3]{playertravelled}" justify="center"/>
+			<sprite depth="1" pos="-192,919" height="30" width="91" color="0,0,0,80" type="sliced" foregroundlayer="true"/>
+			<sprite depth="2" name="windowIcon" width="23" height="23" pos="-190,915" sprite="ui_game_symbol_run" color="[iconColor]" foregroundlayer="true"/>
+			<label depth="6" controller="PlayerStatsWindow" width="58" height="23" name="TextContent" pos="-165,914" font_size="19" text="[DECEA3]{playertravelled}" justify="center"/>
 		</rect>
 	</append>
 
