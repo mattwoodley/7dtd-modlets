@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="No Crosshair on Aim" />
+		<Description value="Removes crosshair when aiming down sights on all weapons except the primitive bow and wooden bow. You may want to pair this modlet with my AccurateAim modlet so that your bullets shoot straight when aiming." />
+		<Author value="M17Woodley" />
+		<Version value="1.0.1" />
+		<Website value="https://github.com/mattwoodley/7dtd-modlets/tree/main/no-crosshair-on-aim" />		
+	</ModInfo>
+</xml>

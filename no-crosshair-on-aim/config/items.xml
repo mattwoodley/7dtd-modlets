@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+	
+	<!-- Sets property 'CrosshairOnAim' attribute value to false for all weapons except the primitive bow and wooden bow. -->
+	<set xpath="//item[not (@name='gunBowT0PrimitiveBow') and not(@name='gunBowT1WoodenBow')]/property[@name='CrosshairOnAim']/@value">false</set>
+
+</configs>
