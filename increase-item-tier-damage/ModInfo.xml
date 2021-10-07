@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Item Tier Damage Increase" />
+		<Description value="This increases the damage for all items to compensate for the removal of the 10% buff mods give by default. I use this modlet in conjunction with my remove-mod-damage-boost." />
+		<Author value="M17Woodley" />
+		<Version value="1.0.1" />
+		<Website value="https://github.com/mattwoodley/7dtd-modlets/tree/main/increase-item-tier-damage" />		
+	</ModInfo>
+</xml>

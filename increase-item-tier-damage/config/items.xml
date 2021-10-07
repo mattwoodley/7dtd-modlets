@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configs>
+	<set xpath="//passive_effect[@name='EntityDamage' and @tier='2,6']/@value">.3, .88</set>
+</configs>
