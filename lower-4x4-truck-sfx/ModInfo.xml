@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lower 4x4 Truck Sound Effects"/>
+		<Description value="This lowers the truck driving volume by 50% or more" />
+		<Author value="M17Woodley" />
+		<Version value="1.0.1" />
+		<Website value="https://github.com/mattwoodley/7dtd-modlets/tree/main/lower-4x4-truck-sfx" />
+	</ModInfo>
+</xml>
