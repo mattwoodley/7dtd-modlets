@@ -3,6 +3,6 @@
 <configs>
 
     <!-- This adds 200% additional damage to headshots (default is 100%), therefore making a headshot do 300% (3x) damage -->
-    <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@tags='head']/@value">2</set>
+    <set xpath="//entity_class[@name='playerMale']//passive_effect[@tags='head']/@value">2</set>
 
 </configs>
