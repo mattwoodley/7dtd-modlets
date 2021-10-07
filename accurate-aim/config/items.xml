@@ -4,16 +4,17 @@
 
 	<!-- Sets spread whilst aiming to 0 -->
 	<!-- This allows bullets to shoot perfectly straight -->
-	<set xpath="/items/item/effect_group/passive_effect[(@name='SpreadMultiplierAiming')]/@value">0</set>
+	<set xpath="//passive_effect[(@name='SpreadMultiplierAiming')]/@value">0</set>
 
 	<!-- Sets IncrementalSpreadMultiplier to 1 for all items except shotguns -->
 	<!-- IncrementalSpreadMultiplier is responsible for changing the spread after a bullet is fired. -->
 	<!-- By setting it to 1, the spread doesn't change from what it was previously -->
 	<!-- If you set the value to less than 1, each bullet fired will decrease the spread and make the next shot more accurate -->
-	<set xpath="/items/item[not (starts-with(@name, 'gunShotgun'))]/effect_group/passive_effect[(@name='IncrementalSpreadMultiplier')]/@value">1</set>
+	<set xpath="//item[not (starts-with(@name, 'gunShotgun'))]//passive_effect[(@name='IncrementalSpreadMultiplier')]/@value">1</set>
+	
 	<!-- Sets WeaponHandling to 10 for all items except shotguns. 10 is the max as far as I can tell -->
 	<!-- The WeaponHandling attribute determines the speed at which spread changes between stances (e.g. walking vs. standing still) -->
 	<!-- It takes roughly 0.5 seconds on this setting -->
-	<set xpath="/items/item[not (starts-with(@name, 'gunShotgun'))]/effect_group/passive_effect[(@name='WeaponHandling') and (@operation='base_set')]/@value">10</set>
+	<set xpath="//item[not (starts-with(@name, 'gunShotgun'))]//passive_effect[(@name='WeaponHandling') and (@operation='base_set')]/@value">10</set>
 
 </configs>
