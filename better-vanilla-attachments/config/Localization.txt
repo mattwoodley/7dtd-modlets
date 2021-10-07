@@ -5,3 +5,5 @@ modGunLaserSightDesc,item_modifiers,mod,,,Increases accuracy when firing from th
 modGunMuzzleBrakeDesc,item_modifiers,mod,,,Diverts the propellant gases to reduce recoil.\n\n-Vertical recoil decreased by 40%.\n-Horizontal recoil decreased by 40%.
 modGunForegripDesc,item_modifiers,mod,,,Significantly improves recoil control from the hip or while moving.\n\n-Vertical recoil decreased by 30%.\n-Horizontal recoil decreased by 60%.
 modGunRetractingStockDesc,item_modifiers,mod,,,Lowers spread while firing from the hip because the weapon becomes more manageable in close quarters.\n\n-Hip-fire spread decreased by 30%.
+modGunCrippleEm,item_modifiers,mod,,,Melon Popper Mod
+modGunCrippleEmDesc,item_modifiers,mod,,,+65% zombie headshot damage\n\n-80% damage on all other zombie parts
