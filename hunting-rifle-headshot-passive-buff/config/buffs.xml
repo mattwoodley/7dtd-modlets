@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+	<!-- If player hits a headshot, add 150% speed to reload for 0.5 seconds (allowing one quick reload) -->
+	<append xpath="/buffs">
+		<buff name="HuntingRifleHeadshot" name_key="HuntingRifleHeadshotName">
+			<duration value="0.5" />
+			<effect_group>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="1.5" tags="perkDeadEye"/>
+			</effect_group>
+		</buff>
+	</append>
+</configs>

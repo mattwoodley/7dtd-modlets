@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+    <!-- Auto Reload after shooting set to True -->
+    <set xpath="//item[@name='gunRifleT1HuntingRifle']//property[@name='AutoReload']/@value">true</set>
+
+    <!-- Hitting a headshot triggers 'HuntingRifleHeadshot' in buffs.xml -->
+    <!-- First triggered_effect checks for headshot from player -->
+    <!-- Second triggered_effect checks for headshot kill from player -->
+    <append xpath="//effect_group[@name='gunRifleT1HuntingRifle']">
+        <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="self" buff="HuntingRifleHeadshot">
+            <requirement name="HitLocation" body_parts="Head"/>
+        </triggered_effect>
+        
+        <triggered_effect trigger="onSelfKilledOther" action="AddBuff" target="self" buff="HuntingRifleHeadshot">
+            <requirement name="HitLocation" body_parts="Head"/>
+        </triggered_effect>
+    </append>
+</configs>
