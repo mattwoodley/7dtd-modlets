@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configs>
+
+    <set xpath="/spawning/biome[not (@name='wasteland')]/spawn/@maxcount">3</set>
+
+    <set xpath="/spawning/entityspawner[@name='Dog_Sm_Territorial']/day/property[@name='TotalAlive']/@value">6</set>
+
+    <set xpath="/spawning/entityspawner[@name='Farm_Med_Territorial']/day/property[@name='TotalAlive']/@value">8</set>
+    <set xpath="/spawning/entityspawner[@name='Farm_Med_Territorial']/day/property[@name='TotalPerWave']/@value">15</set>
+
+    <set xpath="/spawning/entityspawner[@name='Zombie_Soldier_Med_Territorial']/day/property[@name='TotalAlive']/@value">6</set>
+    <set xpath="/spawning/entityspawner[@name='Zombie_Soldier_Med_Territorial']/day/property[@name='TotalPerWave']/@value">12</set>
+
+    <set xpath="/spawning/entityspawner[@name='Zombie_Utility_Worker_Med_Territorial']/day/property[@name='TotalAlive']/@value">6</set>
+    <set xpath="/spawning/entityspawner[@name='Zombie_Utility_Worker_Med_Territorial']/day/property[@name='TotalPerWave']/@value">12</set>
+
+    <set xpath="/spawning/entityspawner[@name='Zombie_Utility_Worker_Sm_Territorial']/day/property[@name='TotalAlive']/@value">3</set>
+    <set xpath="/spawning/entityspawner[@name='Zombie_Utility_Worker_Sm_Territorial']/day/property[@name='TotalPerWave']/@value">6</set>
+
+    <set xpath="/spawning/entityspawner[@name='Zombie_Ghost_Town_Large_Territorial']/day/property[@name='TotalAlive']/@value">12</set>
+    <set xpath="/spawning/entityspawner[@name='Zombie_Ghost_Town_Large_Territorial']/day/property[@name='TotalPerWave']/@value">24</set>
+
+    <set xpath="/spawning/entityspawner[@name='Zombie_Ghost_Town_Sm_Territorial']/day/property[@name='TotalAlive']/@value">3</set>
+    <set xpath="/spawning/entityspawner[@name='Zombie_Ghost_Town_Sm_Territorial']/day/property[@name='TotalPerWave']/@value">6</set>
+
+    <set xpath="/spawning/entityspawner[@name='Zombie_Football_Stadium_Med_Territorial']/day/property[@name='TotalAlive']/@value">6</set>
+    <set xpath="/spawning/entityspawner[@name='Zombie_Football_Stadium_Med_Territorial']/day/property[@name='TotalPerWave']/@value">12</set>
+
+    <set xpath="/spawning/entityspawner[@name='Zombie_Biker_Bar_Med_Territorial']/day/property[@name='TotalAlive']/@value">6</set>
+    <set xpath="/spawning/entityspawner[@name='Zombie_Biker_Bar_Med_Territorial']/day/property[@name='TotalPerWave']/@value">12</set>
+
+    <set xpath="/spawning/entityspawner[@name='Dog_Med_Territorial']/day/property[@name='TotalAlive']/@value">4</set>
+    <set xpath="/spawning/entityspawner[@name='Dog_Med_Territorial']/day/property[@name='TotalPerWave']/@value">9</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnExtraSmall']/day/property[@name='TotalAlive']/@value">2</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnExtraSmall']/day/property[@name='TotalPerWave']/@value">6</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnSmall']/day/property[@name='TotalAlive']/@value">5</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnSmall']/day/property[@name='TotalPerWave']/@value">12</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnMedium']/day/property[@name='TotalAlive']/@value">9</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnMedium']/day/property[@name='TotalPerWave']/@value">18</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnLarge']/day/property[@name='TotalAlive']/@value">10</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnLarge']/day/property[@name='TotalPerWave']/@value">20</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnExLarge']/day/property[@name='TotalAlive']/@value">12</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnExLarge']/day/property[@name='TotalPerWave']/@value">24</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnCrawlers']/day/property[@name='TotalAlive']/@value">3</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnCrawlers']/day/property[@name='TotalPerWave']/@value">6</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnBurntTown']/day/property[@name='TotalAlive']/@value">12</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnBurntTown']/day/property[@name='TotalPerWave']/@value">24</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnSnowSmall']/day/property[@name='TotalAlive']/@value">2</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnSnowSmall']/day/property[@name='TotalPerWave']/@value">6</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnSnowMedium']/day/property[@name='TotalAlive']/@value">7</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnSnowMedium']/day/property[@name='TotalPerWave']/@value">14</set>
+
+    <set xpath="/spawning/entityspawner[@name='SpawnSnowLarge']/day/property[@name='TotalAlive']/@value">10</set>
+    <set xpath="/spawning/entityspawner[@name='SpawnSnowLarge']/day/property[@name='TotalPerWave']/@value">30</set>
+
+</configs>
